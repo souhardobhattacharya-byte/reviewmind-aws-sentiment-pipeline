@@ -1,0 +1,14 @@
+{
+  "fileLocations": [
+    {
+      "URIPrefixes": [
+        "s3://reviewmind-data-souhardo/processed/"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "JSON",
+    "delimiter": ",",
+    "containsHeader": "false"
+  }
+}

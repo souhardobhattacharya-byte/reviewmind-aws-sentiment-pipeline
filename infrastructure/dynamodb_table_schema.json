@@ -1,0 +1,21 @@
+{
+  "TableName": "reviewmind-reviews",
+  "KeySchema": [
+    {
+      "AttributeName": "review_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "review_id",
+      "AttributeType": "S"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST",
+  "StreamSpecification": {
+    "StreamEnabled": true,
+    "StreamViewType": "NEW_IMAGE"
+  },
+  "Purpose": "This table stores raw and processed customer reviews. DynamoDB Streams trigger Lambda 2 to perform sentiment analysis."
+}

@@ -1,0 +1,24 @@
+{
+  "Records": [
+    {
+      "eventID": "1",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-south-1",
+      "dynamodb": {
+        "Keys": {
+          "review_id": { "S": "test9003" }
+        },
+        "NewImage": {
+          "review_id": { "S": "test9003" },
+          "review_text": { "S": "This camera quality is fantastic, but battery life is average." },
+          "analysis_status": { "S": "PENDING" }
+        },
+        "SequenceNumber": "111",
+        "StreamViewType": "NEW_IMAGE"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:ap-south-1:123456789012:table/reviewmind-reviews/stream/2025-11-16T10:05:00.123"
+    }
+  ]
+}
