@@ -1,0 +1,10 @@
+{
+  "review_id": "test9003",
+  "review_text": "This camera quality is fantastic, but battery life is average.",
+  "sentiment": "MIXED",
+  "sentiment_score.Positive": 0.0026,
+  "sentiment_score.Negative": 0.00024,
+  "sentiment_score.Neutral": 0.000024,
+  "sentiment_score.Mixed": 0.9970,
+  "timestamp": 1763403638
+}
